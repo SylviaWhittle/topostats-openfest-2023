@@ -1,0 +1,53 @@
+---
+title: "TopoStats 2023 Update"
+author: "Laura Wiggins, Sylvia Whittle"
+format: revealjs
+---
+
+## What is TopoStats?
+
+TopoStats is...
+
+---
+
+## How we approach Open Research with TopoStats
+
+---
+## Ease of installation
+
+* TopoStats is on PyPI
+
+---
+## Co-working procedures
+
+* Use of GitHub
+* GitHub Issues
+* Github Discussion Board
+
+---
+
+## Code styling to ensure consistency & ease of reading
+* Python PEP-8
+* Auto-formatting with Black
+* Linting via Pylint & Flake8
+* Pre-commit to ensure adherence
+* Pre-commit CI on GitHub for further checks
+
+---
+
+* Automatic API documentation compiled from docstrings via Sphinx to GitHub pages.
+* Easy to use Config files
+* Running courses & workshops for using & contributing
+* Testing to ensure that nothing breaks (ideally)
+* Constant refactoring & organisation to make the API simpler and more accessible to new developers.
+
+::: {.notes}
+Documentation: Close to the code, easy to update while coding
+
+:::
+
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
