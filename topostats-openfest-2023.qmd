@@ -1,53 +1,126 @@
 ---
-title: "TopoStats 2023 Update"
+title: "TopoStats 2023 Showcase"
 author: "Laura Wiggins, Sylvia Whittle"
-format: revealjs
+format: 
+    revealjs: 
+        smaller: false
+        slide-number: true
+        theme: dark
+        scrollable: false
+        embed-resources: true
 ---
 
 ## What is TopoStats?
 
-TopoStats is...
+* Automated software for processing Atomic Force Microscopy images
+* Takes in data, produces pretty pictures and useful stats
+
+:::: {.columns}
+::: {.column width="50%"}
+![](./before.png){width=75%}
+:::
+::: {.column width="50%"}
+![](./after_no_border.png){width=75%}
+:::
+::::
 
 ---
 
 ## How we approach Open Research with TopoStats
 
+
 ---
+
 ## Ease of installation
 
 * TopoStats is on PyPI
+```{.bash .r-fit-text}
+pip install topostats
+```
+
+![](./pypi.png)
 
 ---
+
 ## Co-working procedures
 
 * Use of GitHub
 * GitHub Issues
 * Github Discussion Board
 
----
+![](./discussions.png)
 
-## Code styling to ensure consistency & ease of reading
-* Python PEP-8
-* Auto-formatting with Black
-* Linting via Pylint & Flake8
-* Pre-commit to ensure adherence
-* Pre-commit CI on GitHub for further checks
+## Documentation & Ease of use
 
----
+:::: {.columns}
+::: {.column}
+* Automatic publishing to ORDA
+* Automatic API documentation
+* Easy to use config files
+* Jupyter Notebooks
+* Running courses & workshops
+:::
+::: {.column}
+![](./documentation.png)
+:::
 
-* Automatic API documentation compiled from docstrings via Sphinx to GitHub pages.
-* Easy to use Config files
-* Running courses & workshops for using & contributing
-* Testing to ensure that nothing breaks (ideally)
-* Constant refactoring & organisation to make the API simpler and more accessible to new developers.
+::::
+
 
 ::: {.notes}
 Documentation: Close to the code, easy to update while coding
+ORDA: Persistent identifier
 
 :::
 
 ---
 
-## Quarto
+## Ease of development
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+:::: {.columns}
+::: {.column}
+* Python PEP-8
+* Auto-formatting with Black
+* Linting via Pylint & Flake8
+* Pre-commit to ensure adherence
+* Pre-commit CI on GitHub
+* Comprehensive testing
+* Constant refactoring & organisation
+:::
+::: {.column}
+![](test-coverage.png)
+![](tests.png)
+:::
+::::
+
+::: {.notes}
+Masters Students projects
+
+:::
+
+---
+
+## FAIR4RS
+
+All these actions have helped us to adhere to the FAIR4RS principles and helped us manage a large software project with a small team.
+
+* Findable
+* Accessible
+* Interoperable
+* Reusable
+<!---
+ * Findable & Unique identifier for each version
+    + TopoStats is now versioned with proper nomenclature & metadata in the repo
+* Accessible
+    + Open Source on GitHub, Code is routinely submitted to ORDA for perpetual access.
+* Interoperable
+    + Use of standard formats and systems.
+* Reusable
+    + Documentation, detailled information on context and dependencies. 
+--->
+
+---
+
+## Acknowledgements
+
+
