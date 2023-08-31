@@ -123,4 +123,26 @@ All these actions have helped us to adhere to the FAIR4RS principles and helped 
 
 ## Acknowledgements
 
+:::: {.columns style="font-size: 20px"}
+::: {.column width=30%}
+- Tom Catley
+- Jean Du
+- Tobi Firth
+- Max Gamill
+- Libby Holmes
+- Rob Moorehead
+- Alice Pyne
+- Eddie Rollins
+- Billie Ward 
+- Laura Wiggins
+- Sylvia Whittle
+:::
+::: {.column width=70%}
+![](./group-photo.png)
+:::
+::::
+
+
+
+
 
