@@ -17,10 +17,10 @@ format:
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](./images/images/before.png){width=75%}
+![](./before.png){width=75%}
 :::
 ::: {.column width="50%"}
-![](./images/images/after_no_border.png){width=75%}
+![](./after_no_border.png){width=75%}
 :::
 ::::
 
@@ -38,7 +38,7 @@ format:
 pip install topostats
 ```
 
-![](./images/images/pypi.png)
+![](./pypi.png)
 
 ---
 
@@ -48,7 +48,7 @@ pip install topostats
 * GitHub Issues
 * Github Discussion Board
 
-![](./images/images/discussions.png)
+![](./discussions.png)
 
 ## Documentation & Ease of use
 
@@ -61,7 +61,7 @@ pip install topostats
 * Running courses & workshops
 :::
 ::: {.column}
-![](./images/images/documentation.png)
+![](./documentation.png)
 :::
 
 ::::
@@ -88,8 +88,8 @@ ORDA: Persistent identifier
 * Constant refactoring & organisation
 :::
 ::: {.column}
-![](./images/test-coverage.png)
-![](./images/tests.png)
+![](test-coverage.png)
+![](tests.png)
 :::
 ::::
 
@@ -138,7 +138,7 @@ All these actions have helped us to adhere to the FAIR4RS principles and helped 
 - Sylvia Whittle
 :::
 ::: {.column width=70%}
-![](./images/group-photo.png)
+![](./group-photo.png)
 :::
 ::::
 
