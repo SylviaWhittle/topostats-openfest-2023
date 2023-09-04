@@ -1,5 +1,5 @@
 ---
-title: "TopoStats 2023 Showcase"
+title: "Open Research in TopoStats"
 author: "Laura Wiggins, Sylvia Whittle"
 format: 
     revealjs: 
@@ -12,8 +12,9 @@ format:
 
 ## What is TopoStats?
 
-* Automated software for processing Atomic Force Microscopy images
-* Takes in data, produces pretty pictures and useful stats
+* Automated software for processing Atomic Force Microscopy images.
+* Takes in data, produces pretty pictures and useful stats.
+* Used for research into DNA, cancer and pharmaceuticals.
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -26,34 +27,68 @@ format:
 
 ---
 
-## How we approach Open Research with TopoStats
+## How we approach Open Research in TopoStats
+
+
+---
+
+## FAIR4RS
+
+TopoStats development has been guided by the FAIR4RS (FAIR 4 Research Software) principles.
+
+* Findable
+* Accessible
+* Interoperable
+* Reusable
 
 
 ---
 
 ## Ease of installation
 
-* TopoStats is on PyPI
+* TopoStats is installable through PIP:
 ```{.bash .r-fit-text}
 pip install topostats
 ```
-
-![](./pypi.png)
-
+* Pre-release versions are installable via GitHub:
+```{.bash .r-fit-text}
+git clone https://github.com/AFM-SPM/TopoStats.git
+cd TopoStats
+pip install -e .
+```
+:::: {.columns}
+::: {.column width=50%}
+![](./topostats-pypi.png){width=80%}
+:::
+::: {.column width=50%}
+![](./github-release.png){width=80%}
+:::
+::::
 ---
 
-## Co-working procedures
-
-* Use of GitHub
-* GitHub Issues
-* Github Discussion Board
-
-![](./discussions.png)
-
-## Documentation & Ease of use
+## Open project management
 
 :::: {.columns}
 ::: {.column}
+* Issues
+* Project feature board
+* Discussion Forums
+:::
+::: {.column}
+* Milestones
+* Code of Conduct
+* Bug & Feature templates
+:::
+::::
+
+
+![](./discussions.png)
+
+## Docs, Versioning & Ease of use
+
+:::: {.columns}
+::: {.column}
+* Versioned releases
 * Automatic publishing to ORDA
 * Automatic API documentation
 * Easy to use config files
@@ -75,7 +110,7 @@ ORDA: Persistent identifier
 
 ---
 
-## Ease of development
+## Development workflow
 
 :::: {.columns}
 ::: {.column}
@@ -97,27 +132,6 @@ ORDA: Persistent identifier
 Masters Students projects
 
 :::
-
----
-
-## FAIR4RS
-
-All these actions have helped us to adhere to the FAIR4RS principles and helped us manage a large software project with a small team.
-
-* Findable
-* Accessible
-* Interoperable
-* Reusable
-<!---
- * Findable & Unique identifier for each version
-    + TopoStats is now versioned with proper nomenclature & metadata in the repo
-* Accessible
-    + Open Source on GitHub, Code is routinely submitted to ORDA for perpetual access.
-* Interoperable
-    + Use of standard formats and systems.
-* Reusable
-    + Documentation, detailled information on context and dependencies. 
---->
 
 ---
 
