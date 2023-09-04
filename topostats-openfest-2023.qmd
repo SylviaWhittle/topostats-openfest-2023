@@ -18,10 +18,10 @@ format:
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](./before.png){width=75%}
+![](./before.png){width=50%}
 :::
 ::: {.column width="50%"}
-![](./after_no_border.png){width=75%}
+![](./after_no_border.png){width=50%}
 :::
 ::::
 
